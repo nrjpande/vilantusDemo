@@ -75,6 +75,7 @@ export default function Navbar() {
           <Link to="/home" className="linkStyle">
             Home
           </Link>
+
           <Link to="/about" className="linkStyle">
             About Us
           </Link>
@@ -84,6 +85,7 @@ export default function Navbar() {
           <Link to="/products" className="linkStyle">
             Products
           </Link>
+
           <Link to="/contact" className="linkStyle">
             Contact Us
           </Link>

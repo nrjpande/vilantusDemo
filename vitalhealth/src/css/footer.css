@@ -8,7 +8,9 @@
   .footer-container p{
     margin: auto;
    margin-top: 10px;
-    width: 35%;    
+    width: 45%; 
+    text-align: center;
+
   }
 
 .footer{
@@ -60,7 +62,6 @@
     align-items: center;
     margin:auto;
     border-bottom: .1px solid white;
-    /* display: none; */
 }
 
 .form-buttons{
@@ -88,36 +89,22 @@
 
 @media (max-width:768px){
 
-    
-
     #msgtxt{
-        width: 320px;
+        width: 100%;
         height: 50px;
         margin: 8px;
     }
 
     .form-buttons{
-        justify-content: center;
+        justify-content: space-between;
       }
 
     .form-buttons button{
-        background-color: #393a3b;
-        color: #ffffff;
-        padding: 10px 10px;
-        border: none;
-        width: 100px;
-        cursor: pointer;
-        display: flex;
-        align-items: center; 
-        justify-content: center;
-        margin: 8px;
-        margin-bottom: 15px;
-        font-weight: bolder;
-        font-size: larger;
+        width: 120px;
     }
 
     .email-subject input{
-        width: 320px;
+        width: 100%;
         height: 30px;
         margin: 8px;
     }
@@ -128,15 +115,16 @@
     
     .name-input input{
         margin: 8px;
-        width: 320px;
+        width: 100%;
         height: 30px;
     }
+
+    .footer{
+        height: 50px; 
+    }
     .footer-container p{
-        margin: auto;
-        margin-top: 10px;
-        width: 90%; 
+        width: 70%; 
         font-size: 13px;   
-        justify-content: center;
       }
 
 }

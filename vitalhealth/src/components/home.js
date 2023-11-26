@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import "../css/Carousel.css";
+import "../css/home.css";
 import images1 from "../images/images1.jpg";
 import images2 from "../images/images2.jpg";
 import images3 from "../images/images3.jpg";

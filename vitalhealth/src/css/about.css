@@ -1,5 +1,5 @@
 .about-container{
-    background-color: white;
+background-color: white;
   margin: auto;
   width: 80%;
   text-align: justify;
@@ -89,6 +89,11 @@
     margin: auto;
 }
 
+.quality-description img{
+    height: 320px;
+    width: 100%;
+}
+
 .product-info img{
     width: 130px;
     height: 150px;
@@ -106,8 +111,10 @@
     text-wrap: balance;
 }
 .about-us-logo img{
+    justify-content: center;
     width: 300px;
-    height: 600px;
+    height: 250px;
+    border-radius: 120px;
 }
 
 }

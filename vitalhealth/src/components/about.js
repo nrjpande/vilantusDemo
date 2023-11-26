@@ -28,7 +28,7 @@ export default function About() {
                 business.
               </p>
             </div>
-            <div>
+            <div style={{ justifyContent: "center", alignItems: "center" }}>
               <div className="about-us-logo">
                 <div>
                   <p>
@@ -47,7 +47,7 @@ export default function About() {
                   </p>
                 </div>
                 <div>
-                  <img src={logoImage} alt="vilantus_logo" id="logo" />
+                  <img src={logoImage} alt="vilantus_logo" />
                 </div>
               </div>
               <p>
