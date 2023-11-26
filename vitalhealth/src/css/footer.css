@@ -1,0 +1,142 @@
+.footer-container {
+    background-color:rgb(46, 46, 46);
+    width: 80%;
+    color: white;
+    margin: auto;
+  }
+
+  .footer-container p{
+    margin: auto;
+   margin-top: 10px;
+    width: 35%;    
+  }
+
+.footer{
+    color: aliceblue;
+    height: 30px;    
+    margin-bottom: 5px;
+    margin: auto;
+}
+
+.name-input{
+    display: flex;
+}
+
+.name-input input{
+    margin: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+.contact-form input::placeholder{
+    font-size: 20px;
+}
+
+.email-subject{
+    display: inline-block;
+}
+
+.email-subject input{
+    width: 620px;
+    height: 40px;
+    margin: 5px;
+}
+
+#msgtxt{
+    width: 620px;
+    height: 70px;
+    margin: 5px;
+}
+
+#msgtxt::placeholder{
+    font-size: 20px;
+}
+
+.contact-us-form{
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    border-bottom: .1px solid white;
+    /* display: none; */
+}
+
+.form-buttons{
+  display: flex;
+  align-items: center;
+  height: 50px; 
+  justify-content: center;
+}
+
+.form-buttons button{
+    background-color: #393a3b;
+    color: #ffffff;
+    padding: 10px 10px;
+    border: none;
+    width: 305px;
+    cursor: pointer;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 8px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+@media (max-width:768px){
+
+    
+
+    #msgtxt{
+        width: 320px;
+        height: 50px;
+        margin: 8px;
+    }
+
+    .form-buttons{
+        justify-content: center;
+      }
+
+    .form-buttons button{
+        background-color: #393a3b;
+        color: #ffffff;
+        padding: 10px 10px;
+        border: none;
+        width: 100px;
+        cursor: pointer;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        margin: 8px;
+        margin-bottom: 15px;
+        font-weight: bolder;
+        font-size: larger;
+    }
+
+    .email-subject input{
+        width: 320px;
+        height: 30px;
+        margin: 8px;
+    }
+
+    .name-input{
+        display: block;
+    }
+    
+    .name-input input{
+        margin: 8px;
+        width: 320px;
+        height: 30px;
+    }
+    .footer-container p{
+        margin: auto;
+        margin-top: 10px;
+        width: 90%; 
+        font-size: 13px;   
+        justify-content: center;
+      }
+
+}
