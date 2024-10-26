@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
@@ -5,7 +7,7 @@ const cors = require("cors");
 const path = require("path");
 
 const app = express();
-const port = process.env.port || 8181;
+const port = process.env.PORT || 8181;
 
 app.use(cors());
 app.use(bodyParser.json());
